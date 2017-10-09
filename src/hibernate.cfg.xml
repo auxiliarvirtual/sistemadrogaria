@@ -27,7 +27,8 @@
 		<property name="format_sql">true</property>
 		
 		<mapping class="br.com.drogaria.domain.Fabricante"/>
-		<mapping class="be.com.drogaria.domain.Funcionario"/>
+		<mapping class="br.com.drogaria.domain.Funcionario"/>
+		<mapping class="br.com.drogaria.domain.Produto"/>
 
         
     </session-factory>
