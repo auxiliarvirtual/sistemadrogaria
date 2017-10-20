@@ -24,12 +24,13 @@
         <!-- <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property> -->
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
-		<property name="format_sql">true</property>
+		<property name="format_sql">false</property>
 		
 		<mapping class="br.com.drogaria.domain.Fabricante"/>
 		<mapping class="br.com.drogaria.domain.Funcionario"/>
 		<mapping class="br.com.drogaria.domain.Produto"/>
 		<mapping class="br.com.drogaria.domain.Venda"/>
+		<mapping class="br.com.drogaria.domain.Item"/>
 
         
     </session-factory>
